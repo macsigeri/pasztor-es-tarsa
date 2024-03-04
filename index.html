@@ -47,7 +47,12 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Pásztor és Társa Kft.</a></h1>
+      <div class="logo-container">
+        <a href="index.html"><img src="./assets/img/logo.png" alt="" class="logo-image img-fluid"></a>
+        <h1 class="logo"><a href="index.html">Pásztor és Társa Kft.</a></h1>
+      </div>
+      
+
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -604,13 +609,14 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact_form" class="php-email-form">
+              <input type="hidden" name="contact_number" value="697483">
               <div class="row gy-2 gx-md-3">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Teljes neve" required>
+                  <input type="text" name="from_name" class="form-control" id="name" placeholder="Teljes neve" required>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email címe" required>
+                  <input type="email" class="form-control" name="user_email" id="email" placeholder="Email címe" required>
                 </div>
                 <div class="form-group col-12">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Tárgy" required>
@@ -626,6 +632,8 @@
                 <div class="text-center col-12"><button type="submit">Üzenet küldése</button></div>
               </div>
             </form>
+
+
 
           </div>
 
@@ -671,9 +679,16 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/send_mail.js"></script>
  
 
 </body>
