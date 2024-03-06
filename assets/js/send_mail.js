@@ -1,4 +1,6 @@
+
 (function(){
+   
 
     emailjs.init({
         publicKey: 'DmlAEgiD2Wn6n9OpT',
@@ -15,7 +17,6 @@
                 console.log('FAILED...', error);
             });
     });
-
     
 })()
 

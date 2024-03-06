@@ -1,0 +1,14 @@
+[
+    {
+        "filter_class": "filter-tools",
+        "img_src": "assets/img/portfolio/tools/festogep.jpg",
+        "title": "Nagy teljesítményű festőgép",
+        "content": "Típus: FG-26"
+    },
+    {
+        "filter_class": "filter-tools",
+        "img_src": "assets/img/portfolio/tools/badogozas.png",
+        "title": "Bádogos gépek",
+        "content": "Típus: CAT-BC-3243w"
+    }
+]
