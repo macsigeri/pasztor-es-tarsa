@@ -72,3 +72,33 @@
     padding-top: 80px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  
+  .footer-contact{
+    flex-direction: column;
+  }
+}
+
+.footer-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo{
+  max-width: 150px;
+}
+
+.footer-contact h1{
+  color: #124265;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}

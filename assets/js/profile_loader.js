@@ -1,31 +1,5 @@
 import data from './imagelist.json' assert { type: 'json' };;
 
-class PortfolioImage{
-    constructor(
-        filter_class,
-        img_src,
-        title,
-        content,
-    ){
-        this.filter_class = filter_class;
-        this.img_src = img_src;
-        this.title = title;
-        this.content = content;
-    }
-}
-
-class ImageList {
-    constructor(){
-        this.imageList = []
-    }
-    addNewImage(img){
-        this.imageList.push(img);
-    }
-    getImages(){
-        return this.imageList;
-    }
-}
-
 (function(){
     
     var pContainer = document.querySelector('.portfolio-container');
