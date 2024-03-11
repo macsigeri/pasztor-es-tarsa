@@ -116,6 +116,9 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+.footer-contact-links{
+  text-align: center;
+}
 
 body{
   background-image: url(../img/hero-bg.jpg);
@@ -131,4 +134,23 @@ body{
   height: 100vh;
   overflow: hidden;
   z-index: -1;
+}
+
+.nav-facebook-link{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #124265;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  filter: opacity(0.7);
+}
+.nav-facebook-link i{
+  color:white;
+  margin-right: 5px;
+}
+.nav-facebook-link:hover{
+  filter: none;
 }
