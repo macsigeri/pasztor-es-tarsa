@@ -41,7 +41,7 @@ import data from './imagelist.json' assert { type: 'json' };;
 
         var moreLinkElement = document.createElement("A");
         moreLinkElement.setAttribute("title", "More details");
-        moreLinkElement.setAttribute("href", "portfolio-details.html");
+        moreLinkElement.setAttribute("href", element.url);
         
         var moreLinkIconElement = document.createElement("I");
         moreLinkIconElement.className = "bx bx-link";
