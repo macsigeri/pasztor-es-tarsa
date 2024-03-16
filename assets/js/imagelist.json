@@ -1,16 +1,65 @@
 [
     {
         "filter_class": "filter-tools",
+        "img_src": "assets/img/portfolio/tools/bobcat.jpg",
+        "title": "Caterpillar BOBCAT",
+        "content": "Típus: CAT-BC-3243w",
+        "url": "/portfolio/eszkozok"
+    },
+    {
+        "filter_class": "filter-tools",
+        "img_src": "assets/img/portfolio/tools/komatsu.jpg",
+        "title": "KOMATSU Markológép",
+        "content": "Típus: KFC-221342",
+        "url": "/portfolio/eszkozok"
+    },
+    {
+        "filter_class": "filter-tools",
         "img_src": "assets/img/portfolio/tools/festogep.jpg",
         "title": "Nagy teljesítményű festőgép",
         "content": "Típus: FG-26",
-        "url":"/portfolio/eszkozok"
+        "url": "/portfolio/eszkozok"
     },
     {
         "filter_class": "filter-tools",
         "img_src": "assets/img/portfolio/tools/badogozas.png",
         "title": "Bádogos gépek",
         "content": "Típus: CAT-BC-3243w",
-        "url":"/portfolio/eszkozok"
+        "url": "/portfolio/eszkozok"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/badogos/badogos_01.jpg",
+        "title": "Bádogosház építése",
+        "content": "Év: 2012 - 2014",
+        "url": "/portfolio/badogos"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/ecethaz/ecethaz_01.jpg",
+        "title": "Ecetház építése",
+        "content": "Év: 20XX",
+        "url": "/portfolio/ecethaz"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/oros/P1080686.jpg",
+        "title": "Oros Posta építése",
+        "content": "Év: 1999",
+        "url": "/portfolio/oros"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/fuzeradvany/advany_01.jpg",
+        "title": "Füzéradvány templomfelújítás",
+        "content": "Év: 2022",
+        "url": "/portfolio/fuzeradvany"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/karosszeria/019.jpg",
+        "title": "Karosszéria munkák",
+        "content": "Autószerelés, fényezés, ...",
+        "url": "/portfolio/karosszeria"
     }
 ]
