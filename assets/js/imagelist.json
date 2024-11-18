@@ -1,31 +1,31 @@
 [
     {
         "filter_class": "filter-tools",
-        "img_src": "assets/img/portfolio/tools/bobcat.jpg",
-        "title": "Caterpillar BOBCAT",
-        "content": "Típus: CAT-BC-3243w",
+        "img_src": "assets/img/portfolio/tools/012.jpg",
+        "title": "CASE BOBCAT",
+        "content": "Típus: CASE-BC-3243w",
         "url": "/portfolio/eszkozok"
     },
     {
         "filter_class": "filter-tools",
-        "img_src": "assets/img/portfolio/tools/komatsu.jpg",
+        "img_src": "assets/img/portfolio/tools/004.jpg",
         "title": "KOMATSU Markológép",
         "content": "Típus: KFC-221342",
         "url": "/portfolio/eszkozok"
     },
     {
         "filter_class": "filter-tools",
-        "img_src": "assets/img/portfolio/tools/festogep.jpg",
+        "img_src": "assets/img/portfolio/tools/001.jpg",
         "title": "Nagy teljesítményű festőgép",
         "content": "Típus: FG-26",
         "url": "/portfolio/eszkozok"
     },
     {
         "filter_class": "filter-tools",
-        "img_src": "assets/img/portfolio/tools/badogozas.png",
+        "img_src": "assets/img/portfolio/badogozas/1.jpg",
         "title": "Bádogos gépek",
         "content": "Típus: CAT-BC-3243w",
-        "url": "/portfolio/eszkozok"
+        "url": "/portfolio/badogozas"
     },
     {
         "filter_class": "filter-works",
@@ -61,5 +61,19 @@
         "title": "Karosszéria munkák",
         "content": "Autószerelés, fényezés, ...",
         "url": "/portfolio/karosszeria"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/marosvasarhely/020.jpg",
+        "title": "Marosvásárhely",
+        "content": "Év: 20XX",
+        "url": "/portfolio/marosvasarhely"
+    },
+    {
+        "filter_class": "filter-works",
+        "img_src": "assets/img/portfolio/szatocsbolt/szatocs_front.jpg",
+        "title": "Tiszaladányi Pásztor Szatócsbolt",
+        "content": "Év: 20XX",
+        "url": "/portfolio/szatocsbolt"
     }
 ]
